@@ -129,7 +129,7 @@ class WebGL {
   // Inicia todos los metodos que serviran para crear nuestro espacio y objetos
   initFn() {
     this.loader.load(
-      "https://i.ibb.co/gyTCRVM/sample-11.png",
+      "https://i.ibb.co/rv0mjML/sample-11.png",
       texture => {
         this.createMesh(texture);
         this.show();
